@@ -1,6 +1,6 @@
 from animal_dataset import Animal
 
-dataset = Animal(root_path="Dataloader Dataset", batch_size=3)
+dataset = Animal(root_path="Dataloader Dataset", batch_size=13)
 
 print("Dataset size:", len(dataset))
 
