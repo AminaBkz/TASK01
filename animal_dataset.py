@@ -16,7 +16,7 @@ class Animal(object):
         self.image_paths = []
 
                      
-        for subdir, _, files in os.walk(root_path):
+        for subdir, files in os.walk(root_path):
             for file in files:
                 if file.lower().endswith(('.png', '.jpg', '.jpeg')):
                     self.image_paths.append(os.path.join(subdir, file))
