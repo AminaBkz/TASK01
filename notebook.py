@@ -6,5 +6,4 @@ print("Dataset size:", len(dataset))
 
 batch = dataset.get_item()
 print("Batch paths:", batch)
-
 dataset._show_image(batch)
